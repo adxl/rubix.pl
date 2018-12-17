@@ -1,2 +1,2 @@
 # rubix.pl
-Prolog magic square solver.
+3x3 matric magic square solver.
