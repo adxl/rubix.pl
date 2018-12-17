@@ -1,4 +1,3 @@
-
 rubix([A,B,C,D,E,F,G,H,I]) :- S = [A,B,C,D,E,F,G,H,I], fd_domain(S,1,9), fd_all_different(S),
 
 L1 #= A+B+C,
@@ -12,17 +11,15 @@ C3 #= C+F+I,
 D1 #= A+E+I, 
 D2 #= C+E+G,
 
-L1 #= L2, 
-L2 #= L3, 
-L3 #= C1, 
-C1 #= C2, 
-C2 #= C3, 
-C3 #= D1, 
-D1 #= D2,
-D2 #= L1,
+L1 #= L2,
+L1 #= L3,
+L1 #= C1,
+L1 #= C2,
+L1 #= C3,
+L1 #= D1,
+L1 #= D2,
 
 /*
-3x3 matrix only :
 L1 #= 15, 
 L2 #= 15, 
 L3 #= 15, 
