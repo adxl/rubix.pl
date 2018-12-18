@@ -1,2 +1,2 @@
 # rubix.pl
-3x3 matric magic square solver.
+3x3 matrix magic square solver.
