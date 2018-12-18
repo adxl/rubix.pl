@@ -14,3 +14,11 @@ write('Result : '),nl,nl,
 write(A),tab(3),write(B),tab(3),write(C),nl,nl,
 write(D),tab(3),write(E),tab(3),write(F),nl,nl,
 write(G),tab(3),write(H),tab(3),write(I),nl.
+
+/*
+A	B	C
+
+D	E	F
+
+G	H	I
+*/
